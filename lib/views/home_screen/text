@@ -1,0 +1,5 @@
+boldText(
+                                text: intl.DateFormat()
+                                    .add_yMd()
+                                    .format(DateTime.now()))
+                            .color(fontGrey)
