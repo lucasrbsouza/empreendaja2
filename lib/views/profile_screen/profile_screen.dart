@@ -1,4 +1,5 @@
 import 'package:flutter_application_empreendaja/const/const.dart';
+import 'package:flutter_application_empreendaja/views/auth_screen/login_screen.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
 import 'package:flutter_application_empreendaja/views/messages_screen/messages_screen.dart';
 import 'package:flutter_application_empreendaja/views/profile_screen/edit_profile_screen.dart';
@@ -21,7 +22,12 @@ class ProfileScreen extends StatelessWidget {
             },
             icon: const Icon(Icons.edit, color: white),
           ),
-          TextButton(onPressed: () {}, child: normalText(text: logout)),
+          TextButton(
+            onPressed: () {
+              Get.to(() => LoginScreen());
+            },
+            child: normalText(text: logout),
+          ),
         ],
       ),
       body: Column(
