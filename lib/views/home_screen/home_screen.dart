@@ -22,13 +22,13 @@ class HomeScreen extends StatelessWidget {
                   context,
                   title: products,
                   count: "60",
-                  icon: icProducts,
+                  icon: Icon(Icons.production_quantity_limits),
                 ),
                 dashboardButton(
                   context,
                   title: orders,
                   count: "15",
-                  icon: icOrders,
+                  icon: Icon(Icons.book),
                 ),
               ],
             ),
@@ -40,13 +40,13 @@ class HomeScreen extends StatelessWidget {
                   context,
                   title: rating,
                   count: "60",
-                  icon: icStar,
+                  icon: Icon(Icons.reviews),
                 ),
                 dashboardButton(
                   context,
                   title: totalSales,
                   count: "15",
-                  icon: icOrders,
+                  icon: Icon(Icons.star),
                 ),
               ],
             ),
@@ -62,8 +62,8 @@ class HomeScreen extends StatelessWidget {
                 3,
                 (index) => ListTile(
                   onTap: () {},
-                  leading: Image.asset(
-                    imgProduct,
+                  leading: Image.network(
+                    "https://imgs.search.brave.com/oivnCy35sGabSWwiFJhyCe4md3j2dvhEOaoT50EsNIM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vZ1BGclFO/UTJvaXdEQVg1ODI2/QXpQclNwMDNHSTNm/d3VXSF9VeUdnbjFl/Zy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlu/YjNacC9jM1ZoYkd4/NUxtTnZiUzkzL2ND/MWpiMjUwWlc1MEwz/VncvYkc5aFpITXZN/akF5TXk4dy9NeTl0/YjI1dlkyaHliMjFo/L2RHbGpMWE5vYjNS/ekxXWnYvY2kxd2Nt/OWtkV04wTFdsdC9Z/V2RsTFdsa1pXRnpM/bkJ1L1p3",
                     width: 100,
                     height: 100,
                     fit: BoxFit.cover,

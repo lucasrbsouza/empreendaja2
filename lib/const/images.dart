@@ -1,4 +1,4 @@
-const icLogo = "assets/icons/logo.png";
+const icLogo = "lib/assets/icons/image.png";
 const icAccount = "assets/icons/account.png";
 const icAdd = "assets/icons/add.png";
 const icChat = "assets/icons/chat.png";

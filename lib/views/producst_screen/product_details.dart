@@ -27,8 +27,8 @@ class ProductDetails extends StatelessWidget {
               aspectRatio: 16 / 9,
               viewportFraction: 1.0,
               itemBuilder: (context, index) {
-                return Image.asset(
-                  imgProduct,
+                return Image.network(
+                  "https://imgs.search.brave.com/oivnCy35sGabSWwiFJhyCe4md3j2dvhEOaoT50EsNIM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vZ1BGclFO/UTJvaXdEQVg1ODI2/QXpQclNwMDNHSTNm/d3VXSF9VeUdnbjFl/Zy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlu/YjNacC9jM1ZoYkd4/NUxtTnZiUzkzL2ND/MWpiMjUwWlc1MEwz/VncvYkc5aFpITXZN/akF5TXk4dy9NeTl0/YjI1dlkyaHliMjFo/L2RHbGpMWE5vYjNS/ekxXWnYvY2kxd2Nt/OWtkV04wTFdsdC9Z/V2RsTFdsa1pXRnpM/bkJ1L1p3",
                   width: double.infinity,
                   fit: BoxFit.cover,
                 );

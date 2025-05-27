@@ -15,7 +15,8 @@ Widget dashboardButton(context, {title, count, icon}) {
               ],
             ),
           ),
-          Image.asset(icon, width: 40, color: white),
+          icon,
+          //Image.asset(icon, width: 40, color: white),
         ],
       ).box
       .color(purpleColor)

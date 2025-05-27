@@ -21,7 +21,10 @@ class LoginScreen extends StatelessWidget {
               20.heightBox,
               Row(
                 children: [
-                  Image.asset(icLogo, width: 80).box
+                  Image.network(
+                        "https://imgs.search.brave.com/C0dUqg54OWScXGqDZNM2Bf7WCmCEZ6pvpYWefeHkn9w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vN3lxVXln/djhKeDdSU0h1Nk1N/azQtTEE1NThlWFEw/RjBKVWFyVmlZcVc5/NC9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldjdS9abkpsWlhC/cGF5NWpiMjB2L2Rt/VjBiM0psY3kxd2Nt/VnQvYVhWdEwzWmxk/Rzl5TFdSbC9MV1Js/YzJsbmJpMWtaUzFz/L2IyZHZkR2x3Ynkx/a1pTMXMvYjJwaExX/TnZiV1Z5WTJsaC9i/Rjg0TlRJNU16Y3RO/RGN5L09TNXFjR2Nf/YzJWdGREMWgvYVhO/ZmFIbGljbWxr",
+                        width: 80,
+                      ).box
                       .border(color: white)
                       .rounded
                       .padding(const EdgeInsets.all(8))
