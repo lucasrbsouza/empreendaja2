@@ -13,24 +13,27 @@ class ShopSetting extends StatelessWidget {
         title: boldText(text: shopSettings, size: 16.0),
         actions: [TextButton(onPressed: () {}, child: normalText(text: save))],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8),
-        child: Column(
-          children: [
-            customTextField(label: shopName, hint: nameHint),
-            10.heightBox,
-            customTextField(label: addres, hint: shopAddresHint),
-            10.heightBox,
-            customTextField(label: mobile, hint: shopMobileHint),
-            10.heightBox,
-            customTextField(label: webSite, hint: shopWebSitHint),
-            10.heightBox,
-            customTextField(
-              isDesc: true,
-              label: description,
-              hint: shopDescHint,
-            ),
-          ],
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        child: Padding(
+          padding: const EdgeInsets.all(8),
+          child: Column(
+            children: [
+              customTextField(label: shopName, hint: nameHint),
+              10.heightBox,
+              customTextField(label: addres, hint: shopAddresHint),
+              10.heightBox,
+              customTextField(label: mobile, hint: shopMobileHint),
+              10.heightBox,
+              customTextField(label: webSite, hint: shopWebSitHint),
+              10.heightBox,
+              customTextField(
+                isDesc: true,
+                label: description,
+                hint: shopDescHint,
+              ),
+            ],
+          ),
         ),
       ),
     );
