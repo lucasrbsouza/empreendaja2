@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_application_empreendaja/const/const.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class ProductDetails extends StatelessWidget {
   const ProductDetails({super.key});

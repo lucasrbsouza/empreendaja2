@@ -1,5 +1,6 @@
 import 'package:flutter_application_empreendaja/const/const.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
+// ignore: depend_on_referenced_packages
 import 'package:intl/intl.dart' as intl;
 
 AppBar appBarWidget(title) {

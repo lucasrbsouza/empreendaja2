@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_application_empreendaja/const/colors.dart';
 import 'package:flutter_application_empreendaja/const/const.dart';
-import 'package:flutter_application_empreendaja/const/images.dart';
-import 'package:flutter_application_empreendaja/const/strings.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
 import 'package:flutter_application_empreendaja/views/widgets/custom_textfield.dart';
 

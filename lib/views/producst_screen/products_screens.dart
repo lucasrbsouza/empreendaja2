@@ -54,7 +54,7 @@ class ProductsScreens extends StatelessWidget {
                                 padding: const EdgeInsets.all(12.0),
                                 child: Row(
                                   children: [
-                                    Icon(popupMenuIcons[index] as IconData?),
+                                    Icon(popupMenuIcons[index]),
                                     10.widthBox,
                                     normalText(
                                       text: popupMenuTitles[index],

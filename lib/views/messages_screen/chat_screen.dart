@@ -1,9 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_application_empreendaja/const/colors.dart';
 import 'package:flutter_application_empreendaja/const/const.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
 import 'package:flutter_application_empreendaja/views/messages_screen/components/chat_bubble.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});

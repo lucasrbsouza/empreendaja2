@@ -1,4 +1,3 @@
-import 'package:flutter_application_empreendaja/const/colors.dart' as Colors;
 import 'package:flutter_application_empreendaja/const/const.dart';
 
 Widget normalText({text, color = Colors.white, size = 14}) {

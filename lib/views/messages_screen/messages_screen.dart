@@ -1,10 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_application_empreendaja/const/colors.dart';
 import 'package:flutter_application_empreendaja/const/const.dart';
-import 'package:flutter_application_empreendaja/const/strings.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
 import 'package:flutter_application_empreendaja/views/messages_screen/chat_screen.dart';
-import 'package:get/get_core/get_core.dart';
 
 class MessagesScreen extends StatelessWidget {
   const MessagesScreen({super.key});

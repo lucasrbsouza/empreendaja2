@@ -20,17 +20,13 @@ class Home extends StatelessWidget {
     var bottomNavbar = [
       const BottomNavigationBarItem(icon: Icon(Icons.home), label: dashboard),
       BottomNavigationBarItem(
-        icon: Image.asset(icProducts, color: darkGrey, width: 24),
+        icon: Icon(
+          Icons.production_quantity_limits_sharp,
+        ), //Image.asset(icProducts, color: darkGrey, width: 24),
         label: products,
       ),
-      BottomNavigationBarItem(
-        icon: Image.asset(icOrders, width: 24, color: darkGrey),
-        label: orders,
-      ),
-      BottomNavigationBarItem(
-        icon: Image.asset(icGenerateSettings, width: 24, color: darkGrey),
-        label: settings,
-      ),
+      BottomNavigationBarItem(icon: Icon(Icons.pages_sharp), label: orders),
+      BottomNavigationBarItem(icon: Icon(Icons.settings), label: settings),
     ];
     return Scaffold(
       bottomNavigationBar: Obx(

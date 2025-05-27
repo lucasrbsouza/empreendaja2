@@ -53,10 +53,7 @@ class ProfileScreen extends StatelessWidget {
                       default:
                     }
                   },
-                  leading: Icon(
-                    profileButtonsIcons[index] as IconData?,
-                    color: white,
-                  ),
+                  leading: Icon(profileButtonsIcons[index], color: white),
                   title: normalText(text: profileButtonsTitles[index]),
                 ),
               ),

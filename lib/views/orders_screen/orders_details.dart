@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_application_empreendaja/const/const.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/ourButton.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
 import 'package:flutter_application_empreendaja/views/orders_screen/components/order_place.dart';
-import 'package:get/get_core/get_core.dart';
 
 class OrdersDetails extends StatelessWidget {
   const OrdersDetails({super.key});

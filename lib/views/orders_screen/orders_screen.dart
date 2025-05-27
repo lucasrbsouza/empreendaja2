@@ -2,6 +2,7 @@ import 'package:flutter_application_empreendaja/const/const.dart';
 import 'package:flutter_application_empreendaja/views/auth_screen/widgets/text_style.dart';
 import 'package:flutter_application_empreendaja/views/orders_screen/orders_details.dart';
 import 'package:flutter_application_empreendaja/views/widgets/appbar_widget.dart';
+// ignore: depend_on_referenced_packages
 import 'package:intl/intl.dart' as intl;
 
 class OrdersScreen extends StatelessWidget {
